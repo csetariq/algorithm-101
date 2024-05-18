@@ -14,6 +14,9 @@ class List:
             return True
         return False
 
+    def insert_at_beginning(self, x):
+        pass
+
     def search(self, y) -> int:
         for i in range(self._i):
             if self._arr[i] == y:
